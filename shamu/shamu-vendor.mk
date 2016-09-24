@@ -304,7 +304,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/diag/voice-call-min-log.cfg:system/etc/diag/voice-call-min-log.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/audio_voice_apr.cfg:system/etc/diag/mdm/audio_voice_apr.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/audio_voice_apr.cfg:system/etc/diag/audio_voice_apr.cfg \
-    vendor/motorola/shamu/proprietary/etc/ril/qcril.db:system/etc/ril/qcril.db \
     vendor/motorola/shamu/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/shamu/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/shamu/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
