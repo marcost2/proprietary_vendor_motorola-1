@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/motorola/shamu/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
     vendor/motorola/shamu/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
-    vendor/motorola/shamu/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/sound_trigger.primary.shamu.so:system/vendor/lib/hw/sound_trigger.primary.shamu.so \
     vendor/motorola/shamu/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/motorola/shamu/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     vendor/motorola/shamu/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
@@ -107,8 +107,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     vendor/motorola/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/shamu/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
-    vendor/motorola/shamu/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/motorola/shamu/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libfmas.so:system/vendor/lib/soundfx/libfmas.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/shamu/proprietary/vendor/firmware/VRGain.bin:system/vendor/firmware/VRGain.bin \
     vendor/motorola/shamu/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/motorola/shamu/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
