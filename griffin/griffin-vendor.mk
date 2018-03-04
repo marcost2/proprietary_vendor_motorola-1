@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/motorola/griffin/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/motorola/griffin/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
+    vendor/motorola/griffin/proprietary/lib/libeqservice.so:system/lib/libeqservice.so \
     vendor/motorola/griffin/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/griffin/proprietary/lib/libiio.so:system/lib/libiio.so \
     vendor/motorola/griffin/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
@@ -336,6 +337,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/motorola/griffin/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/audio.motvr.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.motvr.default.so \
+    vendor/motorola/griffin/proprietary/vendor/lib/hw/audio.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8996.so \
     vendor/motorola/griffin/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
@@ -712,6 +714,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
+    vendor/motorola/griffin/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/motorola/griffin/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
@@ -967,6 +970,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
+    vendor/motorola/griffin/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/motorola/griffin/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
