@@ -1404,6 +1404,8 @@ PRODUCT_PACKAGES += \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
+    libtinycompress_vendor \
+    libbtconfigstore \
     imscmlibrary \
     qcrilhook \
     com.qualcomm.location \
