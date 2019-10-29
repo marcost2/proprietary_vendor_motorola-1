@@ -41,20 +41,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/bin/stm401:system/bin/stm401 \
     vendor/motorola/victara/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/victara/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Bluetooth_cal.acdb:system/etc/acdbdata/victara/victara_Bluetooth_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_General_cal.acdb:system/etc/acdbdata/victara/victara_General_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Global_cal.acdb:system/etc/acdbdata/victara/victara_Global_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Handset_cal.acdb:system/etc/acdbdata/victara/victara_Handset_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Hdmi_cal.acdb:system/etc/acdbdata/victara/victara_Hdmi_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Headset_cal.acdb:system/etc/acdbdata/victara/victara_Headset_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Speaker_cal.acdb:system/etc/acdbdata/victara/victara_Speaker_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Bluetooth_cal.acdb:system/etc/acdbdata/victara_cn/victara_cn_Bluetooth_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_General_cal.acdb:system/etc/acdbdata/victara_cn/victara_cn_General_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Global_cal.acdb:system/etc/acdbdata/victara_cn/victara_cn_Global_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Handset_cal.acdb:system/etc/acdbdata/victara_cn/victara_cn_Handset_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Hdmi_cal.acdb:system/etc/acdbdata/victara_cn/victara_cn_Hdmi_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Headset_cal.acdb:system/etc/acdbdata/victara_cn/victara_cn_Headset_cal.acdb \
-    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Speaker_cal.acdb:system/etc/acdbdata/victara_cn/victara_cn_Speaker_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/victara/victara_Bluetooth_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_General_cal.acdb:system/vendor/etc/acdbdata/victara/victara_General_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Global_cal.acdb:system/vendor/etc/acdbdata/victara/victara_Global_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Handset_cal.acdb:system/vendor/etc/acdbdata/victara/victara_Handset_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Hdmi_cal.acdb:system/vendor/etc/acdbdata/victara/victara_Hdmi_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Headset_cal.acdb:system/vendor/etc/acdbdata/victara/victara_Headset_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Speaker_cal.acdb:system/vendor/etc/acdbdata/victara/victara_Speaker_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/victara_cn/victara_cn_Bluetooth_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_General_cal.acdb:system/vendor/etc/acdbdata/victara_cn/victara_cn_General_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Global_cal.acdb:system/vendor/etc/acdbdata/victara_cn/victara_cn_Global_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Handset_cal.acdb:system/vendor/etc/acdbdata/victara_cn/victara_cn_Handset_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Hdmi_cal.acdb:system/vendor/etc/acdbdata/victara_cn/victara_cn_Hdmi_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Headset_cal.acdb:system/vendor/etc/acdbdata/victara_cn/victara_cn_Headset_cal.acdb \
+    vendor/motorola/victara/proprietary/etc/acdbdata/victara_cn/victara_cn_Speaker_cal.acdb:system/vendor/etc/acdbdata/victara_cn/victara_cn_Speaker_cal.acdb \
     vendor/motorola/victara/proprietary/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/motorola/victara/proprietary/etc/firmware/VRGain.bin:system/etc/firmware/VRGain.bin \
     vendor/motorola/victara/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
