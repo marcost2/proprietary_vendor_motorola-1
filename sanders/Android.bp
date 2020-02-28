@@ -171,6 +171,17 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "CACertService",
+	owner: "motorola",
+	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
 dex_import {
 	name: "com.qti.location.sdk",
 	owner: "motorola",
