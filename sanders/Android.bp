@@ -1,4 +1,4 @@
-// Copyright (C) 2019 The LineageOS Project
+// Copyright (C) 2017-2020 The LineageOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,8 +15,224 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "vendor.qti.hardware.fm@1.0",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/lib/vendor.qti.hardware.fm@1.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/lib64/vendor.qti.hardware.fm@1.0.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+}
+
+android_app_import {
+	name: "TimeService",
+	owner: "motorola",
+	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	certificate: ":timeservice_app_cert-legacy-um",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "QtiTelephonyService",
+	owner: "motorola",
+	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "embms",
+	owner: "motorola",
+	apk: "proprietary/app/embms/embms.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "WfdService",
+	owner: "motorola",
+	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "CNEService",
+	owner: "motorola",
+	apk: "proprietary/priv-app/CNEService/CNEService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "qcrilmsgtunnel",
+	owner: "motorola",
+	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "ims",
+	owner: "motorola",
+	apk: "proprietary/app/ims/ims.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "DTVPlayer",
+	owner: "motorola",
+	apk: "proprietary/app/DTVPlayer/DTVPlayer.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "DTVService",
+	owner: "motorola",
+	apk: "proprietary/app/DTVService/DTVService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+dex_import {
+	name: "com.qti.location.sdk",
+	owner: "motorola",
+	jars: ["proprietary/framework/com.qti.location.sdk.jar"],
+}
+
+dex_import {
+	name: "com.qti.snapdragon.sdk.display",
+	owner: "motorola",
+	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
+}
+
+dex_import {
+	name: "embmslibrary",
+	owner: "motorola",
+	jars: ["proprietary/framework/embmslibrary.jar"],
+}
+
+dex_import {
+	name: "imscmlibrary",
+	owner: "motorola",
+	jars: ["proprietary/framework/imscmlibrary.jar"],
+}
+
+dex_import {
+	name: "izat.xt.srv",
+	owner: "motorola",
+	jars: ["proprietary/framework/izat.xt.srv.jar"],
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "motorola",
+	jars: ["proprietary/framework/qcrilhook.jar"],
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "motorola",
+	jars: ["proprietary/framework/qti-telephony-common.jar"],
+}
+
+dex_import {
+	name: "QtiTelephonyServicelibrary",
+	owner: "motorola",
+	jars: ["proprietary/framework/QtiTelephonyServicelibrary.jar"],
+}
+
+dex_import {
+	name: "cneapiclient",
+	owner: "motorola",
+	jars: ["proprietary/framework/cneapiclient.jar"],
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "motorola",
+	jars: ["proprietary/framework/com.qti.dpmframework.jar"],
+}
+
+dex_import {
+	name: "com.quicinc.cne.api-V1.0-java",
+	owner: "motorola",
+	jars: ["proprietary/framework/com.quicinc.cne.api-V1.0-java.jar"],
+}
+
+dex_import {
+	name: "com.quicinc.cne",
+	owner: "motorola",
+	jars: ["proprietary/framework/com.quicinc.cne.jar"],
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "motorola",
+	jars: ["proprietary/framework/dpmapi.jar"],
+}
+
+dex_import {
+	name: "qti-vzw-ims-internal",
+	owner: "motorola",
+	jars: ["proprietary/framework/qti-vzw-ims-internal.jar"],
+}
+
+dex_import {
+	name: "rcsimssettings",
+	owner: "motorola",
+	jars: ["proprietary/framework/rcsimssettings.jar"],
+}
+
+dex_import {
+	name: "tcmclient",
+	owner: "motorola",
+	jars: ["proprietary/framework/tcmclient.jar"],
+}
+
 dex_import {
     name: "WfdCommon",
     owner: "motorola",
     jars: ["proprietary/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "com.fingerprints.extension",
+	owner: "motorola",
+	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
 }
