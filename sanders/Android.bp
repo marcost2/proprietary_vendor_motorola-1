@@ -222,12 +222,6 @@ dex_import {
 }
 
 dex_import {
-	name: "dpmapi",
-	owner: "motorola",
-	jars: ["proprietary/framework/dpmapi.jar"],
-}
-
-dex_import {
 	name: "qti-vzw-ims-internal",
 	owner: "motorola",
 	jars: ["proprietary/framework/qti-vzw-ims-internal.jar"],
