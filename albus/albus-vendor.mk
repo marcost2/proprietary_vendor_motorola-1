@@ -1197,7 +1197,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/motorola/albus/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so  \
     vendor/motorola/albus/proprietary/vendor/lib/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libcutils.so \
-    vendor/motorola/albus/proprietary/vendor/lib/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libbinder.so 
+    vendor/motorola/albus/proprietary/vendor/lib/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libbinder.so \
     
 #RIL
 PRODUCT_COPY_FILES += \
