@@ -42,4 +42,8 @@ start_sensors()
     fi
 }
 
+<<<<<<< HEAD
 start_sensors
+=======
+start_sensors
+>>>>>>> 21e4c67ac809172309b78808dbcbae40f95e80f7
