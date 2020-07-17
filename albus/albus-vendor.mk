@@ -37,10 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/albus/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/motorola/albus/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/motorola/albus/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/motorola/albus/proprietary/framework/com.motorola.camerabgproc.jar:system/framework/com.motorola.camerabgproc.jar \
-    vendor/motorola/albus/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/motorola/albus/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/motorola/albus/proprietary/vendor/framework/cneapiclient.jar:$(TARGET_COPY_OUT_VENDOR)/framework/cneapiclient.jar \
     vendor/motorola/albus/proprietary/vendor/framework/com.motorola.camerabgproc.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.motorola.camerabgproc.jar \
     vendor/motorola/albus/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.quicinc.cne.api-V1.0-java.jar \
