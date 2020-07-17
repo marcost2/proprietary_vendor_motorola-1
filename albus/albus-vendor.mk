@@ -1266,7 +1266,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
     vendor/motorola/albus/proprietary/vendor/lib64/sensors.iio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.iio.so \
     vendor/motorola/albus/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/sensors.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.tof.so
+    vendor/motorola/albus/proprietary/vendor/lib64/sensors.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.tof.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so 
 
 
 PRODUCT_PACKAGES += \
