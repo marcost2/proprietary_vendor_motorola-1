@@ -1282,7 +1282,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
     QtiTelephonyService \
-    embms \
     ims \
     imssettings \
     CNEService \
@@ -1298,14 +1297,9 @@ PRODUCT_PACKAGES += \
     DTVService \
     TimeService \
     colorservice \
-    ConnectivityExt \
     QtiTelephonyServicelibrary \
-    com.qti.dpmframework \
     com.qti.snapdragon.sdk.display \
     com.qualcomm.qti.imscmservice@1.0-java \
-    dpmapi \
-    embmslibrary \
-    imscmlibrary \
     qcrilhook \
     qti-telephony-common \
     qti-vzw-ims-internal \
