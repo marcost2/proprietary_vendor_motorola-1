@@ -47,18 +47,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/albus/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/motorola/albus/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
-    vendor/motorola/albus/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
-    vendor/motorola/albus/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/motorola/albus/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
-    vendor/motorola/albus/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/albus/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/albus/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/motorola/albus/proprietary/lib64/libmodhw.so:system/lib64/libmodhw.so \
-    vendor/motorola/albus/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
-    vendor/motorola/albus/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/motorola/albus/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
-    vendor/motorola/albus/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
-    vendor/motorola/albus/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/albus/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/motorola/albus/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/motorola/albus/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
@@ -68,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/motorola/albus/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/motorola/albus/proprietary/vendor/bin/fmhal_service:$(TARGET_COPY_OUT_VENDOR)/bin/fmhal_service \
-    vendor/motorola/albus/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/motorola/albus/proprietary/vendor/bin/gamed:$(TARGET_COPY_OUT_VENDOR)/bin/gamed \
     vendor/motorola/albus/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/motorola/albus/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
@@ -78,8 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/albus/proprietary/vendor/bin/hw/motorola.hardware.mods_camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.mods_camera.provider@2.4-service \
     vendor/motorola/albus/proprietary/vendor/bin/hw/vendor.qti.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@2.0-service \
-    vendor/motorola/albus/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.iop@1.0-service \
-    vendor/motorola/albus/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/motorola/albus/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/motorola/albus/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/motorola/albus/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
@@ -92,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/motorola/albus/proprietary/vendor/bin/mods_camd:$(TARGET_COPY_OUT_VENDOR)/bin/mods_camd \
-    vendor/motorola/albus/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/motorola/albus/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/motorola/albus/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/motorola/albus/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
@@ -142,11 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
     vendor/motorola/albus/proprietary/vendor/etc/init/motorola.hardware.mods_camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.mods_camera.provider@2.4-service.rc \
     vendor/motorola/albus/proprietary/vendor/etc/init/vendor.qti.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@2.0-service.rc \
-    vendor/motorola/albus/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
-    vendor/motorola/albus/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/motorola/albus/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
-    vendor/motorola/albus/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
-    vendor/motorola/albus/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/motorola/albus/proprietary/vendor/etc/permissions/com.motorola.hardware.dtv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.hardware.dtv.xml \
     vendor/motorola/albus/proprietary/vendor/etc/permissions/com.motorola.moto.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.moto.xml \
     vendor/motorola/albus/proprietary/vendor/etc/permissions/com.motorola.camera2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera2.xml \
@@ -212,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/hw/motorola.hardware.mods_camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.mods_camera.provider@2.4-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@2.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-dplmedia.so \
     vendor/motorola/albus/proprietary/vendor/lib/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsSDP.so \
@@ -744,7 +728,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/motorola/albus/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/motorola/albus/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/motorola/albus/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
@@ -765,9 +748,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-at.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-gt-prop.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/motorola/albus/proprietary/vendor/lib/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquipc_os_api.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqvrcamera_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrcamera_client.so \
@@ -873,8 +853,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
     vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0_vendor.so \
-    vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/com.motorola.mod@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.mod@1.0.so \
@@ -886,7 +864,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@2.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/motorola/albus/proprietary/vendor/lib64/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-ims-rcscmjni.so \
@@ -1006,7 +983,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libmodmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmodmanager.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotext_inf.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
@@ -1024,14 +1000,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libqmimotext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmimotext.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-gt-prop.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqti-iop-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iop-client.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqti-iop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iop.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqti-iopd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
     vendor/motorola/albus/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
@@ -1083,9 +1051,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0-impl.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
@@ -1243,6 +1208,54 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscalar.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscalar.so
 
+
+#Perf
+PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+    vendor/motorola/albus/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/motorola/albus/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
+    vendor/motorola/albus/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/motorola/albus/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+    vendor/motorola/albus/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
+    vendor/motorola/albus/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/motorola/albus/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
+    vendor/motorola/albus/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
+    vendor/motorola/albus/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
+    vendor/motorola/albus/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
+    vendor/motorola/albus/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
+    vendor/motorola/albus/proprietary/vendor/etc/msm_irqbalance_little_big.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance_little_big.conf \
+    vendor/motorola/albus/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/motorola/albus/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
+    vendor/motorola/albus/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
+    vendor/motorola/albus/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
+    vendor/motorola/albus/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
+    vendor/motorola/albus/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
+    vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so 
+#IOP
+    PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/motorola/albus/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/motorola/albus/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/motorola/albus/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
+    vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
+    vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
+    
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.constants@1.0 \
