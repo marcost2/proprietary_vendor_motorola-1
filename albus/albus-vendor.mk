@@ -1287,5 +1287,4 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.imscmservice@1.0-java \
     qcrilhook \
     qti-telephony-common \
-    qti-vzw-ims-internal \
-    init.qcom.sensors.sh
+    qti-vzw-ims-internal
