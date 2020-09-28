@@ -12,6 +12,5 @@
         <permission name="android.permission.FORCE_STOP_PACKAGES" />
         <permission name="com.motorola.permission.WRITE_SECURE_SETTINGS" />
         <permission name="com.motorola.mod.permission.PACKET_BUS_PROTOCOL" />
-        <permission name="com.motorola.modservice.fmwkwrapper" />
     </privapp-permissions>
 </permissions>
