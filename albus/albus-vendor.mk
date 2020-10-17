@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/albus/proprietary/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/albus/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/motorola/albus/proprietary/vendor/framework/com.motorola.camerabgproc.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.motorola.camerabgproc.jar \
     vendor/motorola/albus/proprietary/vendor/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
     vendor/motorola/albus/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/albus/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
@@ -32,22 +31,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/motorola/albus/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/albus/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
-    vendor/motorola/albus/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.provider@2.4-service \
-    vendor/motorola/albus/proprietary/vendor/bin/hw/motorola.hardware.mods_camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.mods_camera.provider@2.4-service \
     vendor/motorola/albus/proprietary/vendor/bin/hw/vendor.qti.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@2.0-service \
     vendor/motorola/albus/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/motorola/albus/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/motorola/albus/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/motorola/albus/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
-    vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
-    vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/motorola/albus/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/motorola/albus/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/motorola/albus/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/motorola/albus/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/motorola/albus/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/motorola/albus/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/motorola/albus/proprietary/vendor/bin/vl53l1_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/vl53l1_daemon \
     vendor/motorola/albus/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/motorola/albus/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/motorola/albus/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
@@ -59,15 +53,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/albus/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/albus/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/motorola/albus/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
-    vendor/motorola/albus/proprietary/vendor/etc/init/motorola.hardware.mods_camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.mods_camera.provider@2.4-service.rc \
     vendor/motorola/albus/proprietary/vendor/etc/init/vendor.qti.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@2.0-service.rc \
     vendor/motorola/albus/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/motorola/albus/proprietary/vendor/etc/permissions/com.motorola.hardware.dtv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.hardware.dtv.xml \
-    vendor/motorola/albus/proprietary/vendor/etc/permissions/com.motorola.moto.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.moto.xml \
-    vendor/motorola/albus/proprietary/vendor/etc/permissions/com.motorola.camera2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera2.xml \
-    vendor/motorola/albus/proprietary/vendor/etc/permissions/com.motorola.cameraone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.cameraone.xml \
-    vendor/motorola/albus/proprietary/vendor/etc/permissions/com.motorola.camerabgproc_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camerabgproc_library.xml \
     vendor/motorola/albus/proprietary/vendor/etc/permissions/mot_dtv_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/mot_dtv_permissions.xml \
     vendor/motorola/albus/proprietary/vendor/firmware/a506_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b00 \
     vendor/motorola/albus/proprietary/vendor/firmware/a506_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b01 \
@@ -91,17 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
     vendor/motorola/albus/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     vendor/motorola/albus/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/motorola/albus/proprietary/vendor/firmware/ice40.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ice40.bin \
     vendor/motorola/albus/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/motorola/albus/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
@@ -113,17 +90,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/albus/proprietary/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/albus/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0_vendor.so \
-    vendor/motorola/albus/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8953.so \
-    vendor/motorola/albus/proprietary/vendor/lib/hw/libcamera_mods_legacy_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libcamera_mods_legacy_hal.so \
-    vendor/motorola/albus/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
-    vendor/motorola/albus/proprietary/vendor/lib/hw/motorola.hardware.mods_camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.mods_camera.provider@2.4-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@2.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/motorola/albus/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/motorola/albus/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/motorola/albus/proprietary/vendor/lib/libCommandSvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCommandSvc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/motorola/albus/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
@@ -140,500 +114,43 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/motorola/albus/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/motorola/albus/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libS5k2l7Pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7Pdaf.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libS5k2l7PdafCamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7PdafCamif.so \
     vendor/motorola/albus/proprietary/vendor/lib/libSampleAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSampleAuthJNI.so \
     vendor/motorola/albus/proprietary/vendor/lib/libSampleExtAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSampleExtAuthJNI.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libYuvSkia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libYuvSkia.so \
-    vendor/motorola/albus/proprietary/vendor/lib/lib_mot_led_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_led_calibration.so \
-    vendor/motorola/albus/proprietary/vendor/lib/lib_mottof.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mottof.so \
     vendor/motorola/albus/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/motorola/albus/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/motorola/albus/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libactuator_dw9718s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libactuator_dw9767.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9767.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libactuator_mot_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_ak7371.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libactuator_mot_ak7371_bear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_ak7371_bear.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libactuator_mot_ak7371_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_ak7371_mono.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
     vendor/motorola/albus/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/motorola/albus/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/motorola/albus/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_hvx_callback_skel.so \
     vendor/motorola/albus/proprietary/vendor/lib/libadsp_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_hvx_stub.so \
     vendor/motorola/albus/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libadvalgcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadvalgcore.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/motorola/albus/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/motorola/albus/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/motorola/albus/proprietary/vendor/lib/libavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavenhancements.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libbson.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbson.so \
     vendor/motorola/albus/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libcamerabgproc-jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgproc-jni.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libcamerabgprocservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgprocservice.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_zsl_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_zsl_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_video_full.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_video_full.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_4k_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_4k_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_ihdr_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot_ihdr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_default_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_default_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_60_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_ihdr_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_qtr_res_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_qtr_res_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_qtr_res_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_qtr_res_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_zsl_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_zsl_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_4k_video_3A.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video_ihdr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_default_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_4k_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_120_3A.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_60_3A.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_ihdr_video_3A.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_zsl_preview_3A.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_zsl_video_3A.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_zsl_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_zsl_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_1080p_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_1080p_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_4k_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_4k_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_hfr_240.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_default_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_default_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_fullsize_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_fullsize_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_240.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_240_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_60_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_ihdr_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_default_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_snapshot_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_4k_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_default_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_default_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_240.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_240.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_60.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_4k_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_4k_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_default_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_default_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_ihdr_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_video_4k.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_zsl_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_zsl_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_default_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_default_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_snapshot_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_ihdr_video.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_ihdr_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_common.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_liveshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_preview.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_video_full.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_postproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_snapshot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_video_full.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_preview_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_video_3a.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libclearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libclearsight.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libfamily_photo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfamily_photo.so \
     vendor/motorola/albus/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/motorola/albus/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/motorola/albus/proprietary/vendor/lib/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeedbackhandler.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libflash_aw3641.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_aw3641.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libflash_sky81298.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_sky81298.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libflash_wd3100.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_wd3100.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libgralloc1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc1.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libhazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhazebuster.so \
     vendor/motorola/albus/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_clearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_clearsight.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_dualcamera.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_filtergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_filtergenerator.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_hazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_hazebuster.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_makeupV2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_makeupV2.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_optizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_optizoom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_pacprocessor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_pacprocessor.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_seestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_seestraight.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_sharpshooter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_sharpshooter.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_trueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_trueportrait.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_truescanner_v2.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_ubifocus.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjscore.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libjustshoot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjustshoot.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmbs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmbs.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct_shimlayer.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ar1335.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ar1335.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dw9763_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9763_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dw9767_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9767_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_facedetection_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gt24c64_bear_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gt24c64_mono_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imx338.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx338.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx362_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_be_stats44.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bg_stats44.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bpc40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_correct40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_encoder40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_viewfinder40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_cs_stats44.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demosaic40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_demux40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demux40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_encoder40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_gamma40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ihist_stats44.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_linearization40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ltm44.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_luma_adaptation40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_mce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mce40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mesh_rolloff40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_rs_stats44.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_encoder44.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_viewfinder44.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_template.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_template.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_l4h8f20_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_l4h8f20_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx214.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx214.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx258.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx258_bear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx258_bear.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx258_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx258_mono.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx362.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx362_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx362_pdaf.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5695.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k2l7_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7_pdaf.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7sa.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_bear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3l8_bear.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3l8_mono.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ov5693.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5693.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ov5693_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5693_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ov5695_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5695_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k2l7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k4h8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_sony_rumba_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_rumba_eeprom.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_vstab_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vstab_module.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmi.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmparser.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmparser_lite.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmorpho_image_stabilizer4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_image_stabilizer4.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmot-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmot_gpu_mapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_gpu_mapper.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmotocalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotocalibration.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/motorola/albus/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/motorola/albus/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/motorola/albus/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-at.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-gt-prop.so \
     vendor/motorola/albus/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libqvrcamera_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrcamera_client.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/motorola/albus/proprietary/vendor/lib/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor.so \
     vendor/motorola/albus/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor_stub.so \
     vendor/motorola/albus/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
@@ -649,15 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseestraight.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libtruescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtruescanner.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libts_detected_face_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_jni.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libts_face_beautify_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_jni.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/motorola/albus/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
     vendor/motorola/albus/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
     vendor/motorola/albus/proprietary/vendor/lib/libvendorconn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvendorconn.so \
@@ -671,8 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsinkinterface.so \
     vendor/motorola/albus/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/motorola/albus/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_ulp_adaptor.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libzaf_algs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_algs.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libzaf_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_core.so \
     vendor/motorola/albus/proprietary/vendor/lib/libzxingcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzxingcpp.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_audio.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_audio.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_battery.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_battery.so \
@@ -694,12 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_touch.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_touch.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_vibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_vibrator.so \
     vendor/motorola/albus/proprietary/vendor/lib/mmi_wifi.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_wifi.so \
-    vendor/motorola/albus/proprietary/vendor/lib/motcamera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/motcamera.device@1.0-impl.so \
-    vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.device@1.0.so \
-    vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.device@1.0_vendor.so \
-    vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.provider@2.4.so \
-    vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.provider@2.4_vendor.so \
-    vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.mods_camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.mods_camera.provider@2.4.so \
     vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_fd_skel.so \
     vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
     vendor/motorola/albus/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_hvx_skel.so \
@@ -782,11 +282,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libjni_blurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_blurbuster.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libjni_chromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_chromaflash.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libjni_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_panorama.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libjni_sharpshooter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_sharpshooter.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libjni_trackingfocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_trackingfocus.so \
     vendor/motorola/albus/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libldacBT_abr.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libldacBT_enc.so \
@@ -798,7 +293,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/libmmcamera_mot_imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_mot_imx362.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-gt-prop.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
@@ -1112,19 +606,17 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/motorola/albus/proprietary/lib/libiio.so:system/lib/libiio.so \
     vendor/motorola/albus/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/motorola/albus/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8953.so \
-    vendor/motorola/albus/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
     vendor/motorola/albus/proprietary/vendor/lib/libiio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiio.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/motorola/albus/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
     vendor/motorola/albus/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
     vendor/motorola/albus/proprietary/vendor/lib/sensors.iio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.iio.so \
     vendor/motorola/albus/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/motorola/albus/proprietary/vendor/lib/sensors.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.tof.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8953.so \
-    vendor/motorola/albus/proprietary/vendor/lib64/hw/sensors.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libiio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiio.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so \
     vendor/motorola/albus/proprietary/vendor/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_reg.so \
@@ -1346,6 +838,504 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/motorola/albus/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/motorola/albus/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+
+#Laser blobs - Thank albus!
+PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/vendor/bin/vl53l1_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/vl53l1_daemon \
+    vendor/motorola/albus/proprietary/vendor/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvl53l1_daemon.so \
+
+#Camera
+PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
+    vendor/motorola/albus/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libSonyDefocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyDefocus.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libSonyDualPDLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyDualPDLibrary.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libSonyDualPDParam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyDualPDParam.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_dw9718s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_dw9767.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9767.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_mot_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_ak7371.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_mot_ak7371_bear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_ak7371_bear.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libactuator_mot_ak7371_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_ak7371_mono.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libadvalgcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadvalgcore.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libcamerabgprocservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgprocservice.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libcamerabgproc-jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabgproc-jni.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libflash_aw3641.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_aw3641.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libflash_sky81298.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_sky81298.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libflash_wd3100.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_wd3100.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libfamily_photo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfamily_photo.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libgralloc1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc1.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libjscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjscore.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libjustshoot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjustshoot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmbs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmbs.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmorpho_image_stabilizer4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_image_stabilizer4.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libzaf_algs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_algs.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libzaf_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzaf_core.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
+    vendor/motorola/albus/proprietary/vendor/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
+    vendor/motorola/albus/proprietary/vendor/lib/lib_mot_led_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_led_calibration.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmotocalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotocalibration.so \
+    vendor/motorola/albus/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmot-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot-qc-fd-offline.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmot_gpu_mapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_gpu_mapper.so \
+    vendor/motorola/albus/proprietary/vendor/lib/lib_mottof.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mottof.so \
+    vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.device@1.0.so \
+
+#Camera from Oreo
+PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libclearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libclearsight.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libhazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhazebuster.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
+    vendor/motorola/albus/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseestraight.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
+
+#mmcamera
+PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct_shimlayer.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pp_buf_mgr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ar1335.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ar1335.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dw9763_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9763_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_dw9767_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9767_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_facedetection_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gt24c64_mono_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gt24c64_bear_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx219.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imx338.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx338.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx362_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_be_stats44.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bg_stats44.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bhist_stats44.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bpc40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_enhan40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_suppress40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_encoder40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_video40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_viewfinder40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_correct40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_encoder40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_viewfinder40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_cs_stats44.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demosaic40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_demux40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demux40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_encoder40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_gamma40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ihist_stats44.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_linearization40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ltm44.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_luma_adaptation40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_mce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mce40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mesh_rolloff40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_rs_stats44.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_encoder44.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_viewfinder44.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_template.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_template.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_l4h8f20_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_l4h8f20_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx214.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx214.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx258.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx258_bear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx258_bear.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx258_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx258_mono.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx362.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_imx362_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx362_pdaf.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5695.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k2l7_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7_pdaf.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7sa.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_bear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3l8_bear.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3l8_mono.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ov5693.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5693.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ov5693_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5693_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ov5695_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5695_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k2l7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k4h8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_sony_rumba_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_rumba_eeprom.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmmcamera_vstab_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vstab_module.so \
+
+#Moto cam provider
+PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.provider@2.4-service \
+    vendor/motorola/albus/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
+    vendor/motorola/albus/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
+    vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.device@1.0_vendor.so \
+    vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.provider@2.4.so \
+    vendor/motorola/albus/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.provider@2.4_vendor.so \
+    vendor/motorola/albus/proprietary/vendor/lib/motcamera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/motcamera.device@1.0-impl.so \
+
+#Camera Firmware 
+PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/motorola/albus/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
+
+#Postprocessing
+PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libS5k2l7Pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7Pdaf.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libS5k2l7PdafCamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7PdafCamif.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
+    
+#Chromatix
+PRODUCT_COPY_FILES += \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_zsl_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ar1335_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_zsl_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_cpp_video_full.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_video_full.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx219_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_zsl_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_4k_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_4k_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_ihdr_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_liveshot_ihdr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_cpp_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_default_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_default_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_hfr_60_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_ihdr_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_qtr_res_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_qtr_res_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_qtr_res_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_qtr_res_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_zsl_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_imx338_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx338_zsl_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_4k_video_3A.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_cpp_video_ihdr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_default_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_4k_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_120_3A.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_hfr_60_3A.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_ihdr_video_3A.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_zsl_preview_3A.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx214_zsl_video_3A.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_zsl_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx258_zsl_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_1080p_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_1080p_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_4k_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_4k_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_hfr_240.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_cpp_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_default_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_default_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_fullsize_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_fullsize_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_240.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_240_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_hfr_60_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_ihdr_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_imx362_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_imx362_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_default_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_snapshot_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_4k_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_default_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_default_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_240.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_240.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_60.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k2l7sa_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_4k_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_4k_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_cpp_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_default_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_default_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_ihdr_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_video_4k.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_zsl_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov16860_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16860_zsl_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_default_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_default_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_ov5693_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5693_snapshot_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_ihdr_video.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_ihdr_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_video_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_common.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_liveshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_preview.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_video_full.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_postproc.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_snapshot.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_video_full.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_preview_3a.so \
+    vendor/motorola/albus/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_video_3a.so \
 
 PRODUCT_PACKAGES += \
     libgpustats \

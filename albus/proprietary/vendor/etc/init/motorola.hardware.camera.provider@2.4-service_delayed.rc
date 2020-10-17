@@ -13,5 +13,5 @@ service motcamera-provider-2-4 /vendor/bin/hw/motorola.hardware.camera.provider@
     writepid /dev/cpuset/camera-daemon/tasks /dev/stune/top-app/tasks
     disabled
     onrestart stop motcamera-provider-2-4
-    onrestart restart qcamerasvr
+    onrestart restart vendor.qcamerasvr
     onrestart restart cameraserver
