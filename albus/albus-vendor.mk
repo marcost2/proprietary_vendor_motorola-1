@@ -842,7 +842,6 @@ PRODUCT_COPY_FILES += \
 #Laser blobs - Thank albus!
 PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/bin/vl53l1_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/vl53l1_daemon \
-    vendor/motorola/albus/proprietary/vendor/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvl53l1_daemon.so \
 
 #Camera
 PRODUCT_COPY_FILES += \
