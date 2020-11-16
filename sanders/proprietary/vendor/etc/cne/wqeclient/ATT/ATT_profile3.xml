@@ -84,7 +84,7 @@
 				<CQE_Thresholds Id="128">
                     <!-- RSSI threshold from which all values greather than it is considered as good for wlan to be -->
 					<!-- a candidate for interface selection -->
-					<RSSIAddThreshold units="dbm">-79,-79</RSSIAddThreshold>
+					<RSSIAddThreshold units="dbm">-75,-75</RSSIAddThreshold>
 					<!-- RSSI threshold from which all values lesser than it is considered as bad for wlan to be -->
 					<!-- a candidate for interface selection -->
 					<RSSIDropThreshold units="dbm">-79,-79</RSSIDropThreshold>
