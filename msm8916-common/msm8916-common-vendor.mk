@@ -229,6 +229,5 @@ PRODUCT_PACKAGES += \
     imscmd \
     qcnvitems \
     qcrilhook \
-    qti-telephony-common \
     qti-vzw-ims-internal \
     rcsimssettings
