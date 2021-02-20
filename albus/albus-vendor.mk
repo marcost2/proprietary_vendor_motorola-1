@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/motorola/albus/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
-    vendor/motorola/albus/proprietary/vendor/lib/libmmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmi.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmparser.so \
     vendor/motorola/albus/proprietary/vendor/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmparser_lite.so \
@@ -75,26 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/albus/proprietary/vendor/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsinkinterface.so \
     vendor/motorola/albus/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/motorola/albus/proprietary/vendor/lib/libzxingcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzxingcpp.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_audio.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_audio.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_battery.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_battery.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_bluetooth.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_bluetooth.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_camera.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_cpu.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_flashlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_flashlight.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_fm.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_fm.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_gps.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_gps.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_headset.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_headset.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_key.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_lcd.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_lcd.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_light.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_light.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_memory.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_memory.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_nfc.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_nfc.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_sim.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_sim.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_storage.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_storage.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_sysinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_sysinfo.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_touch.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_touch.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_vibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_vibrator.so \
-    vendor/motorola/albus/proprietary/vendor/lib/mmi_wifi.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_wifi.so \
     vendor/motorola/albus/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8953.so \
     vendor/motorola/albus/proprietary/vendor/lib64/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8953.so \
